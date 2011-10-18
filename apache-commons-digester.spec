@@ -16,7 +16,7 @@ BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:     noarch
 
 BuildRequires: java-devel
-BuildRequires: jpackage-utils
+BuildRequires: jpackage-utils >= 0:1.7.5
 BuildRequires: apache-commons-beanutils >= 1.8
 BuildRequires: apache-commons-logging >= 1.1.1
 BuildRequires: maven2-plugin-antrun
@@ -32,9 +32,9 @@ BuildRequires: maven-plugin-bundle
 BuildRequires: maven-surefire-maven-plugin
 BuildRequires: maven-surefire-provider-junit
 Requires:      java
-Requires:      jpackage-utils
-Requires(post):jpackage-utils
-Requires(postun):jpackage-utils
+Requires:      jpackage-utils >= 0:1.7.5
+Requires(post):jpackage-utils >= 0:1.7.5
+Requires(postun):jpackage-utils >= 0:1.7.5
 Requires:      apache-commons-beanutils >= 1.8
 Requires:      apache-commons-logging >= 1.1.1
 
@@ -50,7 +50,7 @@ that can be used in many different projects
 %package javadoc
 Summary:       API documentation for %{name}
 Group:         Development/Java
-Requires:      jpackage-utils
+Requires:      jpackage-utils >= 0:1.7.5
 Obsoletes:     jakarta-%{short_name}-javadoc < %{version}-%{release}
 
 %description javadoc
