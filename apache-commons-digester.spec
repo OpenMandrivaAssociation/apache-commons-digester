@@ -3,7 +3,7 @@
 
 Name:          apache-%{short_name}
 Version:       1.8.1
-Release:       8
+Release:       10
 Summary:       XML to Java object mapping module
 Group:         Development/Java
 License:       ASL 2.0
