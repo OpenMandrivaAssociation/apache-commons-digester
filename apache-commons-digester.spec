@@ -7,7 +7,7 @@ Release:       1.1%{?dist}
 Summary:       XML to Java object mapping module
 
 License:       ASL 2.0
-URL:           http://commons.apache.org/digester/
+URL:           https://commons.apache.org/digester/
 Source0:       http://archive.apache.org/dist/commons/digester/source/%{short_name}-%{version}-src.tar.gz
 BuildArch:     noarch
 
